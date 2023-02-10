@@ -6,6 +6,39 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 
+## [14.0.0](https://github.com/cloudquery/cloudquery/compare/plugins-source-aws-v13.3.0...plugins-source-aws-v14.0.0) (2023-02-10)
+
+
+### ⚠ BREAKING CHANGES
+
+* **aws:** PK for `aws_s3_bucket_grants` ([#7822](https://github.com/cloudquery/cloudquery/issues/7822))
+* **aws:** PK for `aws_docdb_certificates` ([#7820](https://github.com/cloudquery/cloudquery/issues/7820))
+* **aws:** PK for `aws_ec2_images` ([#7821](https://github.com/cloudquery/cloudquery/issues/7821))
+* **aws:** Fix PK  for `aws_rds_certificates` ([#7817](https://github.com/cloudquery/cloudquery/issues/7817))
+
+### Features
+
+* **aws-resources:** Add EMR Instance Fleets and Groups ([#7818](https://github.com/cloudquery/cloudquery/issues/7818)) ([df8cfea](https://github.com/cloudquery/cloudquery/commit/df8cfeab17d0b31ebb96019648a3be6469ef330f))
+* **aws:** Add New Validation for AWS Tags ([#7651](https://github.com/cloudquery/cloudquery/issues/7651)) ([2440e89](https://github.com/cloudquery/cloudquery/commit/2440e89863a903d65beb875667b5d68bc94704f9))
+
+
+### Bug Fixes
+
+* **aws:** Fix PK  for `aws_rds_certificates` ([#7817](https://github.com/cloudquery/cloudquery/issues/7817)) ([8082b2a](https://github.com/cloudquery/cloudquery/commit/8082b2a542e9f75637db11b270965d4e626b3075))
+* **aws:** PK for `aws_docdb_certificates` ([#7820](https://github.com/cloudquery/cloudquery/issues/7820)) ([b2b06ea](https://github.com/cloudquery/cloudquery/commit/b2b06eac297f5893729bf3c080b1734548c46906))
+* **aws:** PK for `aws_ec2_images` ([#7821](https://github.com/cloudquery/cloudquery/issues/7821)) ([d568cde](https://github.com/cloudquery/cloudquery/commit/d568cde6afcf20e55642f768d6721e05e7825a47))
+* **aws:** PK for `aws_s3_bucket_grants` ([#7822](https://github.com/cloudquery/cloudquery/issues/7822)) ([4efbf32](https://github.com/cloudquery/cloudquery/commit/4efbf32f77146b61b62956ca9ef41c925d644d4f))
+* **deps:** Update module github.com/cloudquery/codegen to v0.2.1 ([#7875](https://github.com/cloudquery/cloudquery/issues/7875)) ([9d10ac1](https://github.com/cloudquery/cloudquery/commit/9d10ac103dc28a46afa351ed0687c0a22a49ecee))
+* **deps:** Update module github.com/cloudquery/plugin-sdk to v1.36.0 ([#7809](https://github.com/cloudquery/cloudquery/issues/7809)) ([c85a9cb](https://github.com/cloudquery/cloudquery/commit/c85a9cb697477520e94a1fd260c56b89da62fc87))
+* Fix ECR image ARN to use repository name ([#7839](https://github.com/cloudquery/cloudquery/issues/7839)) ([e585d61](https://github.com/cloudquery/cloudquery/commit/e585d615174cb52ea16cf23cee21151b8b1f4a2b))
+* Update endpoints ([#7795](https://github.com/cloudquery/cloudquery/issues/7795)) ([7f5260c](https://github.com/cloudquery/cloudquery/commit/7f5260c6fa74dee57697aa7a950099a645461c8a))
+* Update endpoints ([#7797](https://github.com/cloudquery/cloudquery/issues/7797)) ([3e72d3e](https://github.com/cloudquery/cloudquery/commit/3e72d3e345ecd9101d82e3b2091150ca5c24f0a8))
+* Update endpoints ([#7798](https://github.com/cloudquery/cloudquery/issues/7798)) ([0a21b16](https://github.com/cloudquery/cloudquery/commit/0a21b16176ced82323eee8b9e37b575e8082dc40))
+* Update endpoints ([#7799](https://github.com/cloudquery/cloudquery/issues/7799)) ([ea62bbc](https://github.com/cloudquery/cloudquery/commit/ea62bbccf5acb4b46a45ea7bbdf97c83b4eadcd2))
+* Update endpoints ([#7810](https://github.com/cloudquery/cloudquery/issues/7810)) ([c797331](https://github.com/cloudquery/cloudquery/commit/c7973312ab23f845aa9437dbf604fdc6bb315f4f))
+* Update endpoints ([#7811](https://github.com/cloudquery/cloudquery/issues/7811)) ([5b1566c](https://github.com/cloudquery/cloudquery/commit/5b1566cd73094042c2fbf835a0a509957ca44e2d))
+* Update endpoints ([#7816](https://github.com/cloudquery/cloudquery/issues/7816)) ([e1cca0c](https://github.com/cloudquery/cloudquery/commit/e1cca0c0ab9e08ecdbfdd114ed72df874d4d32dd))
+
 ## [13.3.0](https://github.com/cloudquery/cloudquery/compare/plugins-source-aws-v13.2.0...plugins-source-aws-v13.3.0) (2023-02-07)
 
 
